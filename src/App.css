@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:100,200,300,300i,400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+.wrapper{
+ background-image: linear-gradient(to right, #E34107, #F46A38);
+ height:100vh;
+ justify-content: center;
+ align-content: center;
+ display:flex;
+}
+
+.container{
+  width:70%;
+  background-color: grey;
+  height:90vh;
+  margin:auto 15%;
+  display: flex;
+  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+}
+
+.title-container{
+  display:flex;
+  width:55%;
+  height:100%;
+  background:url('image/photo.jpg') center center no-repeat;
+  background-size: cover;
+  color:#000;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  align-items: center;
+  font-family: 
+}
+
+.form-container{
+  position:relative;
+  width:45%;
+  height:100%;
+  background-color: #2c3e50;
+}
+
+input[type="text"]{
+  background-color:transparent;
+  border:0;
+  border-bottom:solid 1px #f16051;
+  width:30%;
+  padding-bottom:4px;
+  color:#fff !important;
+  font-weight:lighter;
+  letter-spacing: 2px;
+  outline:none;
+  margin-bottom:30px;
+  margin-right:20px;
+  font-weight:20px;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #2c3e50 inset;
+    -webkit-text-fill-color: #fff !important;
+}
+
+button{
+  border:0;
+  padding:8px 20px;
+  margin:0px 2px;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  border-radius:2px;
+  font-size:15px;
+  cursor:pointer;
+  background-color:#f16051;
+  color:#fff;
+  font-weight: 100;
+}
+
+button:hover{
+  color:#000;
+}
+
+button:active{
+  outline:none;
+}
+
+.title{
+   font-size:50px;
+   letter-spacing: 2px;
+   line-height: 1.3;
+   font-family:'Roboto Slab', serif;
+}
+
+.subtitle{
+  font-style: italic;
+  font-size:30px;
+  letter-spacing:.7px;
+  line-height:1.1;
+  font-family:'Merriweather', serif;
+}
+form{
+  margin:15px 5px;
+  padding:8px 10px;
+}
+
+.weather__info {
+  width: 60%;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  margin:10px 20px;
+}
+
+.weather__key {
+  color: #f16051;
+  border-bottom: solid 2px rgba(255,255,255,0.06);
+  padding: 20px 0 20px 0;
+  font-weight: 400;
+}
+
+.weather__key:last-child {
+  border: 0;
+}
+
+.weather__value {
+  color: #fff;
+  font-weight: 200;
+}
+
+.weather__error {
+  color: #f16051;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
